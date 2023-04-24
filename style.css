@@ -1,26 +1,24 @@
-@import url('https://fonts.cdnfonts.com/css/zilla-slab');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&family=Satisfy&display=swap');
 
+/* Configurações gerais */
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  background-color: #fbf5ff;
+  font-family: 'Signika Negative', sans-serif;
+  background-image: "https://github.com/laridepaula/SAP010-cipher/blob/main/v1013-p-0009a.jpg";
+  margin: 0;
 }
 
-#root {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0;
-}
-
+/* Header */
 .header {
   background-color: #ac74e0;
-  padding: 0;
+  padding: 20px 0;
 }
 
 .header h1 {
+  font-family: 'Satisfy', cursive;
   font-size: 44px;
   text-align: center;
   margin: 0;
-  padding: 10px 0;
+  padding: 0;
   color: #fff;
   text-shadow: 1px 1px #00000057;
 }
@@ -29,18 +27,19 @@ body {
   font-size: 24px;
   text-align: center;
   margin: 0;
-  padding: 10px 0;
+  padding: 0;
   color: #fff;
   text-shadow: 1px 1px #00000057;
 }
 
+/* Inputs e Outputs */
 .input, .output {
   display: inline-block;
-  width: 45%;
-  vertical-align: middle;
+  width: 40%;
+  vertical-align: top;
   position: relative;
   border-radius: 20px;
-  background-color: #b7a1cf;
+  background-color: #b773cad8;
   padding: 20px;
   margin-top: 20px;
 }
@@ -48,10 +47,11 @@ body {
 .input p, .output p {
   font-size: 20px;
   margin-top: 0;
-  font-style: bold;
+  font-weight: bold;
   color: #fff;
 }
 
+/* Deslocamento */
 .deslocamento {
   display: inline-block;
   width: 25%;
@@ -74,12 +74,14 @@ body {
   border-radius: 20px;
   background-color: #b7a1cf;
   color: #fff;
+  border: none;
 }
 
+/* Botões */
 .buttons {
-  display: block;
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
-  text-align: center; 
 }
 
 .buttons button {
@@ -97,9 +99,10 @@ body {
   background-color: #b7a1cf;
 }
 
+/* Textarea */
 textarea {
-  border: 1px #FF69B4;
-  background-color: #b7a1cf;
+  border: 3px solid #FF69B4;
+  background-color: #f2e7ff;
   border-radius: 20px;
   height: 400px; 
   width: 300px; 
@@ -107,14 +110,18 @@ textarea {
   padding: 20px;
   margin-top: 20px;
   color: #fff;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
+/* Footer */
 footer {
-	background-color: #FF69B4;
-	color: #fff;
-	text-align: center;
-	margin-top: 20px;
-	padding: 20px;
+  background-color: #FF69B4;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 footer a {
