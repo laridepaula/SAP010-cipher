@@ -7,40 +7,37 @@
   </head>
   <body>
     <div id="root" style="text-align: center;">
-      <div class="header">
-        <h1>INFORMAÇÃO CONFIDENCIAL </h1>
-        <h2>CODIFIQUE SEUS TEXTOS PARA QUE NINGUEM CONSIGA LER</h2>
-      </div>
-      <div style="display: flex; justify-content: center;">
-        <div class="input" style="margin-right: 10px;">
-        <p>INSIRA AQUI O SEU SEGREDO</p>
-        <div class="textarea-wrapper">
-          <textarea id="textoInput" maxlength="800" cols="40" rows="20"></textarea>
-          <div class="bg-img"></div>
+      <div id="root">
+        <div class="header">
+          <h1>SEUS SEGREDOS SEMPRE BEM ESCONDIDOS</h1>
+          <h2>CODIFIQUE SEUS PENSAMENTOS PARA QUE NINGUEM DESCUBRA SEUS SEGREDOS</h2>
         </div>
+        <div class="inputs-container">
+          <div class="input">
+            <p>INSIRA AQUI O SEU SEGREDO</p>
+            <div class="textarea">
+              <textarea id="textoInput" maxlength="800" cols="40" rows="20"></textarea>
+            </div>
+          </div>
+          <div class="output">
+            <p>ESTE É O SEU SEGREDO CODIFICADO/DECODIFICADO</p>
+            <div class="textarea">
+              <textarea id="textoOutput" readonly cols="40" rows="20"></textarea>
+            </div>
+          </div>
         </div>
-        <div class="output" style="margin-left: 10px;">
-        <p>ESTE É O SEU SEGREDO CODIFICADO/DECODIFICADO</p>
-        <div class="textarea-wrapper">
-          <textarea id="textoOutput" readonly cols="40" rows="20"></textarea>
-          <div class="bg-img"></div>
+        <div class="deslocamento">
+          <p>insira o número da sua chave</p>
+          <input type="number" id="deslocamento" min="1" value="0">
         </div>
+        <div class="buttons">
+          <button id="codificarBtn">Codificar</button>
+          <button id="decodificarBtn">Decodificar</button>
         </div>
+        <footer>
+          <p>Desenvolvido por <a href="https://github.com/laridepaula">Larissa de Paula</a></p>
+        </footer>
       </div>
-      <div class="deslocamento" style="text-align: center; margin-top: 10px;">
-        <p>insira o número da sua chave</p>
-        <input type="number" id="deslocamento" min="1" value="0">
-      </div>
-      <div class="buttons" style="text-align: center; margin-top: 10px;">
-        <br>
-        <button id="codificarBtn">Codificar</button>
-        <button id="decodificarBtn">Decodificar</button>
-      </div>
-      </div>
-
-      <footer>
-        <p>Desenvolvido por <a href="https://github.com/laridepaula">Larissa de Paula</a></p>
-      </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

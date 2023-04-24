@@ -1,153 +1,123 @@
-
-
 @import url('https://fonts.cdnfonts.com/css/zilla-slab');
 
-                
-/* Definir fonte padrão */
 body {
-	font-family: 'Zilla Slab', sans-serif;;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #fbf5ff;
 }
 
-/* Imagem de fundo para o corpo da página */
-body {
-	background-image: url('bg.avif');
-	background-size: cover;
-}
-
-/* Container principal */
 #root {
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 20px;
-	
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
 
-/* Título principal */
 .header {
-background-color: #000000;
-
+  background-color: #ac74e0;
+  padding: 0;
 }
 
 .header h1 {
-	font-size: 44px;
-	text-align: center;
-	margin: 0;
-	padding: 10px 0;
-	color: #ff4242;
-	text-shadow: 1px 1px #00000057;
-}
-.header h2{
-	font-size: 28px;
-	text-align: center;
-	margin: 0;
-	padding: 20px 0;
-	color: #ffffff
-}
-/* Área de entrada de texto */
-.input {
-	display: inline-block;
-	width: 45%;
-	vertical-align: middle;
-	position: relative;
+  font-size: 44px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: #fff;
+  text-shadow: 1px 1px #00000057;
 }
 
-.input p {
-	font-size: 20px;
-	margin-top: 0;
-	font-style: bold;
-	color: #110101;
-
+.header h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: #fff;
+  text-shadow: 1px 1px #00000057;
 }
 
-.input .bg-img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 400px;
-	z-index: -1;
-	background-image: url('imagem1.png') ;
-	background-repeat: no-repeat;
-
+.input, .output {
+  display: inline-block;
+  width: 45%;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 20px;
+  background-color: #b7a1cf;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-/* Área de entrada do número de deslocamento */
+.input p, .output p {
+  font-size: 20px;
+  margin-top: 0;
+  font-style: bold;
+  color: #fff;
+}
+
 .deslocamento {
-	display: inline-block;
-	width: 25%;
-	margin-top: 20px;
-	vertical-align: top;
-	color: #000;
-	
+  display: inline-block;
+  width: 25%;
+  margin-top: 20px;
+  vertical-align: top;
 }
 
 .deslocamento p {
-	font-size: 18px;
-	margin-top: 0;
+  font-size: 18px;
+  margin-top: 0;
+  color: #8d6dd1;
 }
 
 .deslocamento input[type="number"] {
-	display: block;
-	width: 100%;
-	padding: 10px;
-	font-size: 16px;
-	font-family: inherit;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  border-radius: 20px;
+  background-color: #b7a1cf;
+  color: #fff;
 }
 
-/* Botões de ação */
 .buttons {
-	display: block;
-	margin-top: 20px;
-	text-align: right; 
-	
+  display: block;
+  margin-top: 20px;
+  text-align: center; 
 }
 
 .buttons button {
-	padding: 10px 20px;
-	font-size: 16px;
-	background-color: #000;
-	color: #fff;
-	border: none;
-	cursor: pointer;
-	border-radius: 20px;
-	transition: background-color 0.2s ease-in-out;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8d6dd1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .buttons button:hover {
-	background-color: #333;
-}
-
-/* Área de saída de texto */
-.output {
-	display: inline-block;
-	width: 45%;
-	margin-top: 20px;
-	vertical-align: middle;
-	position: relative;
-}
-
-.output p {
-	font-size: 20px;
-	margin-top: 0;
-	font-style: bold;
-	color: #110101;
-}
-
-.output .bg-img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 400px;
-	z-index: -1;
-	background-image: url('imagem3.png');
-	background-repeat: no-repeat;
+  background-color: #b7a1cf;
 }
 
 textarea {
-    border: none;
-    background-color: transparent;
-	height: 400px; 
-    width: 300px; 
-    resize: none; 
+  border: 1px #FF69B4;
+  background-color: #b7a1cf;
+  border-radius: 20px;
+  height: 400px; 
+  width: 300px; 
+  resize: none; 
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+footer {
+	background-color: #FF69B4;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
 }
