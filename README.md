@@ -107,7 +107,10 @@ JavaScript manipula o conteúdo dinâmico, como a entrada de texto e a exibiçã
 
 
 [✔] Possui uma interface que possibilita criptografar e descriptografar.
+
 [✔] Permite ao usuário escolher o número de deslocamento.
+
 [✔] Aceitação de letras maiúsculas e minusculas.
+
 [✔] Os caracteres especiais são mantidos.
 [✔] Testes unitários dos métodos cipher (encode e decode).
