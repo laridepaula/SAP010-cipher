@@ -8,7 +8,7 @@
 * [4. Usuários e Necessidades do usuário](#4-usuários-e-necessidades-do-usuário)
 * [5. Instruções de uso](#5-instruções-de-uso)
 * [6. Produto final e Objetivos alcançados](#6-produto-final-e-objetivos-alcançados)
-
+* [7. Acesse o Secret Cipher](https://laridepaula.github.io/SAP010-cipher/)
 
 ***
 
@@ -34,6 +34,7 @@ cifrar a mensagem.
 
 Acesse o [Secret Cipher](https://laridepaula.github.io/SAP010-cipher/)
 
+
 ## 2. Resumo do projeto
 
 O [Secret Cipher](https://laridepaula.github.io/SAP010-cipher/) é uma aplicação web que permite a codificação e decodificação
@@ -55,9 +56,11 @@ O resultado é exibido em um campo de texto.
 * Implementar controle de versão com git (e a plataforma github)
 
 ## 3. Protótipo
+
 O layout foi projetado para ser intuitivo e objetivo, com uma tematica que remete os 
 diarios da época da adolescencia nos anos 2000, com cores pasteis, e uma paleta 
 em tons de azul, amarelo e rosa.
+
  ![arte prototipo](figma.png)
 
 ## 4. Usuários e Necessidades do usuário
@@ -90,6 +93,7 @@ essa informação será possível decodificar a mensagem.
 
 
 ## 6. Produto final e Objetivos alcançados
+
 O projeto "Secret Cipher" trata-se de um site que permite codificar e decodificar 
 mensagens, usando a Cifra de César. O usuário insere o texto e o número da chave de 
 deslocamento, e o site retorna o texto codificado ou decodificado.
@@ -105,6 +109,7 @@ que realizam a codificação e decodificação da mensagem, respectivamente.
 O site em si é construído usando HTML, CSS e JavaScript. 
 O HTML define a estrutura do site, o CSS controla a aparência e o layout e o 
 JavaScript manipula o conteúdo dinâmico, como a entrada de texto e a exibição do resultado. 
+
 ![tela](tela.png)
 
 
@@ -115,4 +120,6 @@ JavaScript manipula o conteúdo dinâmico, como a entrada de texto e a exibiçã
 [✔] Aceitação de letras maiúsculas e minusculas.
 
 [✔] Os caracteres especiais são mantidos.
+
 [✔] Testes unitários dos métodos cipher (encode e decode).
+
