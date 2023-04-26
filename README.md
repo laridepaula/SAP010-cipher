@@ -32,9 +32,11 @@ de comunicação segura, permitindo que os usuários enviem mensagens criptograf
 que só podem ser lidas por aqueles que conhecem o deslocamento utilizado para 
 cifrar a mensagem.
 
+Acesse o [Secret Cipher](https://laridepaula.github.io/SAP010-cipher/)
+
 ## 2. Resumo do projeto
 
-O Secret Cipher é uma aplicação web que permite a codificação e decodificação
+O [Secret Cipher](https://laridepaula.github.io/SAP010-cipher/) é uma aplicação web que permite a codificação e decodificação
 de mensagens secretas, inspirado em diários da época da adolescência e 
 revistas teen, com uma temática em tons pastéis, como se estivéssemos voltando 
 aos anos 2000.
